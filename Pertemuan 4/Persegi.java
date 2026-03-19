@@ -5,25 +5,31 @@
  * Tanggal   : 11/03/2026
  */
 
-public class Persegi extends BangunDatar {
+/********** CLASS **********/
+public class Persegi extends BangunDatar { // subclass dari BangunDatar
+    // ATRIBUT
     private double sisi;
 
-    public Persegi(double sisi, String warna, String border) {
+    /********** METHOD **********/
+    // KONSTRUKTOR
+    public Persegi(double sisi, String warna, String border) { // constructor dengan parameter
         super(warna, border);
         this.jmlSisi = 4;
         this.sisi = sisi;
     }
 
-    public double getLuas() {
+    // SELEKTOR (Getter)
+    public double getLuas() { // method buat ngitung luas persegi
         return sisi * sisi;
     }
 
-    public double getKeliling() {
+    public double getKeliling() { // method buat ngitung keliling persegi
         return 4 * sisi;
     }
 
-    @Override
-    public void printInfo() {
+    // OVERRIDE METHOD SUPERCLASS (BangunDatar)
+    @Override // override method printInfo buat nambahin info sisi, luas, dan keliling
+    public void printInfo() { // method buat print info persegi
         super.printInfo();
         System.out.println("Sisi: " + sisi);
         System.out.println("Luas: " + getLuas());
