@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MainSeminar",
+      "request": "launch",
+      "mainClass": "tugas4.MainSeminar",
+      "projectName": "PBO07_24060124140179_3c676911"
+    },
+    {
+      "type": "java",
+      "name": "MainAnabul",
+      "request": "launch",
+      "mainClass": "tugas3.MainAnabul",
+      "projectName": "PBO07_24060124140179_3c676911"
+    },
+    {
+      "type": "java",
+      "name": "MainMahasiswa",
+      "request": "launch",
+      "mainClass": "tugas2.MainMahasiswa",
+      "projectName": "PBO07_24060124140179_3c676911"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/ASUS/Documents/Codes/PraktikumPBOB1/PBO07_24060124140179",
+      "program": "c:/Users/ASUS/Documents/Codes/PraktikumPBOB1/PBO07_24060124140179/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
