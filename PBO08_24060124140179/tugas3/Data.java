@@ -1,3 +1,9 @@
+/*
+ * File      : Data.java
+ * Deskripsi : Kelas untuk merepresentasikan objek data dengan tipe data generik
+ * Pembuat   : Adam Mulya Rasyid
+ * Tanggal   : Rabu, 29 April 2026
+ */
 package tugas3;
 
 public class Data<T> {

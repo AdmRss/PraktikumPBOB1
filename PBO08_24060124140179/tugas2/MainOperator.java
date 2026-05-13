@@ -1,3 +1,9 @@
+/*
+ * File      : MainOperator.java
+ * Deskripsi : Kelas untuk merepresentasikan objek operator generik
+ * Pembuat   : Adam Mulya Rasyid
+ * Tanggal   : Rabu, 29 April 2026
+ */
 package tugas2;
 import anabul.*;
 import tugas1.Datum;
